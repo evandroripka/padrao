@@ -14,5 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('website.home');
+});
+//route to welcome
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
+
+//Rota para listar todos os projetos de lei cadastrados com paginação pega via parametro
+Route::get('/projetosdelei/{pag}', 'App\Http\Controllers\ProjetosdeleiController@index')->middleware(['auth'])->name('projetosdelei');

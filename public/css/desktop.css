@@ -1,0 +1,57 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Sofia Sans', sans-serif!important;
+}
+
+nav {
+    background-image: linear-gradient(45deg, #033459, #004071);
+    min-height: 10vh;
+}
+
+nav a,
+nav li {
+    color: white!important;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#homeslider.carousel {
+    height: 70vh;
+    overflow: hidden;
+}
+
+img.logoalep {
+    max-width: 13vw;
+}
+
+section#links-uteis {
+    margin-top: -5vh;
+    z-index: 2;
+    position: relative;
+}
+
+section#links-uteis .box {
+    padding: 10px 15px;
+    width: 100%;
+    height: 150px;
+}
+
+section#links-uteis .col {
+    padding: 0px;
+}
+
+section#links-uteis .box-1 {
+    background-color: #0099d3;
+}
+
+section#links-uteis .box-2 {
+    background-color: #006fad;
+}
+
+section#links-uteis .box-3 {
+    background-color: #03365d;
+}
+
+section#links-uteis .box-4 {
+    background-color: #013f6f;
+}

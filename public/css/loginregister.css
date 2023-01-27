@@ -1,0 +1,25 @@
+.motherline>div.antialiased {
+    width: 70%;
+    background-color: #00426f!important;
+}
+
+.imgbg {
+    width: 30vw;
+}
+
+.motherline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.headerlogo img {
+    max-width: 20vw;
+}
+
+.imgbg {
+    background-position: center;
+}
